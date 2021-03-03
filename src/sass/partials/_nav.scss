@@ -1,0 +1,21 @@
+@import '_variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+h1 {
+    text-align: center;
+    color: rgb(2, 10, 121);
+    padding: $spacing*2;
+    margin-top: $spacing*2;
+    font-family: 'Cinzel', serif;
+}
+.containerPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.spinner {
+    align-self: center;
+}

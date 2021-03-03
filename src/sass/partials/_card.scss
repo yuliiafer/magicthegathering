@@ -1,0 +1,48 @@
+@import '_variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    border-bottom: $border;
+    padding: $spacing*2;
+    width: 300px;
+    margin: 0 auto;
+    
+    vertical-align: top;
+    font-family: 'Akaya Telivigala', cursive;
+    .containerImg {
+        margin-bottom: $spacing;
+        width: 260px;
+    }
+    .containerText {
+        font-size: 14px;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+}
+
+.common {
+    background-color: $common;
+    padding: $spacing;
+    border-radius: $borderRadius;
+}
+.uncommon {
+    background-color: $uncommon;
+    padding: $spacing;
+    border-radius: $borderRadius;
+}
+.rare {
+    background-color: $rare;
+    padding: $spacing;
+    border-radius: $borderRadius;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        text-decoration: none;
+        color: rgb(59, 147, 230);
+    }
+}
